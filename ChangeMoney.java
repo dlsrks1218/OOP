@@ -8,7 +8,7 @@ public class ChangeMoney {
 		for(int i=0; i<arr.length; i++) {
 			int a = don / arr[i];
 			don = don % arr[i];
-			System.out.println(arr[i]+"¿ø±Ç "+a+"°³");
+			System.out.println(arr[i]+"ì›ê¶Œ "+a+"");
 		}
 		
 	}
