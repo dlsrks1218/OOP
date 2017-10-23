@@ -6,8 +6,8 @@ public class BubbleSort {
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		for(int i=0; i<arr.length-1; i++) {
-			for(int j=i; j<arr.length; j++) {
+		for(int i=0; i<arr.length; i++) {
+			for(int j=0; j<arr.length-1; j++) {
 				if(arr[i]>arr[j]) {
 					int tmp;
 					tmp = arr[i];
